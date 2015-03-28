@@ -1,0 +1,16 @@
+{{extend 'layout.html'}}
+<h1>Imagen: {{=imagen.titulo}}</h1>
+<center>
+<img width="200px"
+     src="{{=URL('download', args=imagen.archivo)}}" />
+</center>
+{{if len(comentarios):}}
+  <h2>Comentarios</h2><br /><p>
+  {{for publicacion in comentarios:}}
+    <p>{{=publicacion.autor}} dice <i>{{=publicacion.cuerpo}}</i></p>
+  {{pass}}</p>
+{{else:}}
+  <h2>Todavía no se han publicado comentarios</h2>
+{{pass}}
+<h2>Publica un comentario</h2>
+{{=formulario}}

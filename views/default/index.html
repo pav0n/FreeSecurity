@@ -1,0 +1,7 @@
+{{extend 'layout.html'}}
+<h1>Imágenes registradas</h1>
+<ul>
+{{for imagen in imagenes:}}
+{{=LI(A(imagen.titulo, _href=URL("mostrar", args=imagen.id)))}}
+{{pass}}
+</ul>

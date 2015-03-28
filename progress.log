@@ -1,0 +1,20 @@
+[2015-03-25 21:00:49] START
+[2015-03-25 21:04:41] EDIT FreeSecurity/models/db.py: 15
+[2015-03-25 21:21:35] EDIT FreeSecurity/models/db.py: 0
+[2015-03-25 21:23:33] EDIT FreeSecurity/controllers/default.py: -6
+[2015-03-25 21:30:14] EDIT FreeSecurity/views/default/index.html: -25
+[2015-03-25 21:34:23] EDIT FreeSecurity/controllers/default.py: -32
+[2015-03-25 21:35:38] EDIT FreeSecurity/controllers/default.py: 0
+[2015-03-25 21:38:37] EDIT FreeSecurity/controllers/default.py: 0
+[2015-03-25 21:40:11] EDIT FreeSecurity/controllers/default.py: 0
+[2015-03-25 21:42:03] CREATE mostrar.html: 0
+[2015-03-25 21:42:11] EDIT FreeSecurity/views/mostrar.html: 13
+[2015-03-25 21:42:36] EDIT FreeSecurity/views/mostrar.html: 0
+[2015-03-25 21:43:24] DELETE FreeSecurity/views/mostrar.html: -16
+[2015-03-25 21:43:42] CREATE default/mostrar.html: 0
+[2015-03-25 21:43:50] EDIT FreeSecurity/views/default/mostrar.html: 13
+[2015-03-25 21:47:26] EDIT FreeSecurity/controllers/default.py: 3
+[2015-03-25 21:48:31] EDIT FreeSecurity/controllers/default.py: 4
+[2015-03-25 21:49:44] CREATE default/administrar.html: 0
+[2015-03-25 21:50:09] EDIT FreeSecurity/views/default/administrar.html: 1
+[2015-03-25 21:51:20] EDIT FreeSecurity/controllers/default.py: 0
